@@ -2,11 +2,11 @@ import React from "react";
 
 const ComponentContainer = ({ title, children }) => {
   return (
-    <div className="w-full p-8">
-      <h2 className="text-3xl font-bold pb-6 mb-4 border-b-2 text-center sm:text-start">
+    <div className="w-full h-screen px-8 mx-auto box-border">
+      <h2 className="text-3xl font-bold py-6 border-b-2 text-center sm:text-start fixed z-10 bg-white w-full">
         {title}
       </h2>
-      {children}
+      <div className="py-28">{children}</div>
     </div>
   );
 };

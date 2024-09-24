@@ -1,14 +1,15 @@
 import React from "react";
-import data from "../../data.json";
 import Card from "./Card";
+import { keyMetrices } from "../../assets/constants";
 
 const KeyMetrices = () => {
   return (
     <div className="flex flex-wrap gap-8 py-4">
-      {Object.keys(data?.keyMetrics).map((item) => (
+      {Object.keys(keyMetrices).map((item, index) => (
         <Card
-          label={data?.keyMetrics[item].label}
-          value={data?.keyMetrics[item].value}
+          key={`${keyMetrices[item].value}_index_${index + 1}`}
+          label={keyMetrices[item].label}
+          value={keyMetrices[item].value}
         />
       ))}
     </div>

@@ -9,15 +9,17 @@ import RecentStreams from "./Components/pages/RecentStreams";
 function App() {
   return (
     <Router>
-      <div className="App flex h-screen bg-white">
+      <div className="App flex h-screen bg-white box-border">
         <SidebarComponent />
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/key_metrices" element={<KeyMetrices />} />
-          <Route path="/data_visualization" element={<DataVisualization />} />
-          <Route path="/recent_streams" element={<RecentStreams />} />
-        </Routes>
+        <div className="ml-0 md:ml-80">
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/key_metrices" element={<KeyMetrices />} />
+            <Route path="/data_visualization" element={<DataVisualization />} />
+            <Route path="/recent_streams" element={<RecentStreams />} />
+          </Routes>
+        </div>
       </div>
     </Router>
   );

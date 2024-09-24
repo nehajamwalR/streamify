@@ -10,22 +10,24 @@ const SidebarComponent = () => {
     setShowSidebar(!showSidebar);
   };
   return (
-    <div className="flex h-screen">
-      <div className="hidden sm:block w-64 md:w-80 bg-gray-50 border-r rounded-r-lg shadow ">
+    <>
+      <div className="top-0 left-0 h-screen bg-gray-50 z-10 fixed hidden md:block w-4 md:w-72 border-r rounded-r-lg shadow ">
         <Sidebar />
       </div>
       {/* Mobile sidebar */}
-      {showSidebar ? (
-        <div className="fixed sm:hidden right-0 bg-white w-full h-full z-10 transition-transform duration-300 ease-in-out transform origin-top scale-95">
-          <Sidebar handleCloseClick={handleShowSidebar} />
+      <div className="md:hidden flex">
+        {showSidebar ? (
+          <div className="left-10 top-10 bg-white w-full h-full z-10 transition-transform duration-300 ease-in-out transform origin-top scale-95">
+            <Sidebar handleCloseClick={handleShowSidebar} />
+          </div>
+        ) : (
+          <></>
+        )}
+        <div className="float-left md:hidden" onClick={handleShowSidebar}>
+          <ImageContainer icon={menuIcon} size={30} />
         </div>
-      ) : (
-        <></>
-      )}
-      <div className="sm:hidden float-left" onClick={handleShowSidebar}>
-        <ImageContainer icon={menuIcon} size={30} />
       </div>
-    </div>
+    </>
   );
 };
 
