@@ -1,4 +1,4 @@
-import { lazy } from "react";
+import { lazy, Suspense } from "react";
 import "./App.css";
 import {
   BrowserRouter as Router,
@@ -23,16 +23,18 @@ function App() {
       <div className="App h-screen bg-white box-border">
         <SidebarComponent />
         <div className="ml-0 md:ml-72">
-          <Routes>
-            <Route path="/" element={<Navigate to="/dashboard" />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/key_metrices" element={<KeyMetricesPage />} />
-            <Route
-              path="/data_visualization"
-              element={<DataVisualizationPage />}
-            />
-            <Route path="/recent_streams" element={<RecentStreams />} />
-          </Routes>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Routes>
+              <Route path="/" element={<Navigate to="/dashboard" />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/key_metrices" element={<KeyMetricesPage />} />
+              <Route
+                path="/data_visualization"
+                element={<DataVisualizationPage />}
+              />
+              <Route path="/recent_streams" element={<RecentStreams />} />
+            </Routes>
+          </Suspense>
         </div>
       </div>
     </Router>
