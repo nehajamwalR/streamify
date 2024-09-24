@@ -7,12 +7,15 @@ import { Link } from "react-router-dom";
 const Sidebar = ({ handleCloseClick = () => {} }) => {
   const [activeTab, setActiveTab] = useState("dashboard");
   return (
-    <nav className="mx-6">
+    <nav className="px-2 md:px-6">
       <div className="py-6 flex items-center justify-between border-b-2">
         <h1 className="bg-red-600 text-white text-2xl sm:text-4xl m-2 px-4 py-2 rounded">
           Streamify
         </h1>
-        <div className="float-right block sm:hidden" onClick={handleCloseClick}>
+        <div
+          className="float-right block h-10 w-10 md:hidden"
+          onClick={handleCloseClick}
+        >
           <ImageContainer icon={closeIcon} size={30} />
         </div>
       </div>

@@ -9,9 +9,9 @@ import RecentStreams from "./Components/pages/RecentStreams";
 function App() {
   return (
     <Router>
-      <div className="App flex h-screen bg-white box-border">
+      <div className="App h-screen bg-white box-border">
         <SidebarComponent />
-        <div className="ml-0 md:ml-80 w-full px-4">
+        <div className="ml-0 md:ml-72">
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/dashboard" element={<Dashboard />} />

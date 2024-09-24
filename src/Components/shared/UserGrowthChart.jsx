@@ -12,7 +12,7 @@ import { userGrowth } from "../../assets/constants";
 
 const UserGrowthChart = () => {
   return (
-    <div className="p-4 border-2 shadow-gray-200 rounded-xl my-4">
+    <div className="flex justify-center items-center p-4 border-2 shadow-gray-200 rounded-xl my-4 overflow-hidden">
       <LineChart
         width={500}
         height={300}

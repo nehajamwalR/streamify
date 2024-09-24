@@ -4,7 +4,7 @@ import { barChartColors, revenueDistribution } from "../../assets/constants";
 
 const RevenueDistribution = () => {
   return (
-    <div className="p-4 border-2 shadow-gray-200 rounded-xl my-4">
+    <div className="flex justify-center items-center p-4 border-2 shadow-gray-200 rounded-xl my-4 overflow-hidden">
       <PieChart width={500} height={300}>
         <Pie
           data={revenueDistribution}
