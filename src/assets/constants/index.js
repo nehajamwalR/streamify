@@ -2,18 +2,22 @@ export const sideBarOptions = [
   {
     label: "Dashboard",
     value: "dashboard",
+    path: "/dashboard",
   },
   {
     label: "Key Matrices",
-    value: "key_metrics",
+    value: "key_metrices",
+    path: "/key_metrices",
   },
   {
     label: "Data Visualization",
     value: "data_visualization",
+    path: "/data_visualization",
   },
   {
     label: "Recent Streams Table",
     value: "recent_streams",
+    path: "/recent_streams",
   },
 ];
 

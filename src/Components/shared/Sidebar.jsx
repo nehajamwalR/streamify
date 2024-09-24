@@ -19,7 +19,7 @@ const Sidebar = ({ handleCloseClick = () => {} }) => {
       <div className="px-2 py-5 flex flex-col">
         {sideBarOptions.map((item) => (
           <Link
-            to={item.value}
+            to={item.path}
             key={item.value}
             className={`cursor-pointer border-b-2 p-4 text-left text-md ${
               activeTab === item.value ? "bg-black text-white rounded-lg" : ""

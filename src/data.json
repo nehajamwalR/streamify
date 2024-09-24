@@ -1,158 +1,440 @@
 {
   "keyMetrics": {
-    "totalUsers": 1000000,
-    "activeUsers": 350000,
-    "totalStreams": 20000000,
+    "totalUsers": {
+      "label": "Total Users",
+      "value": 1000000
+    },
+    "activeUsers": {
+      "label": "Active Users",
+      "value": 350000
+    },
+    "totalStreams": {
+      "label": "Total Streams",
+      "value": 20000000
+    },
     "revenue": {
-      "total": 500000,
+      "label": "Revenue",
+      "value":"500000",
+      "total": {
+        "label": "Total Revenue",
+        "value": 500000
+      },
       "breakdown": {
-        "subscriptions": 350000,
-        "ads": 150000
+        "subscriptions": {
+          "label": "Subscriptions Revenue",
+          "value": 350000
+        },
+        "ads": {
+          "label": "Ads Revenue",
+          "value": 150000
+        }
       }
     },
     "topArtist": {
-      "name": "The Weeknd",
-      "streams": 500000
-    }
+        "label": "Top Artist Name",
+        "value": "The Weeknd"
+      },
+      "streams": {
+        "label": "Top Artist Streams",
+        "value": 500000
+      }
   },
   "userGrowth": [
     {
-      "month": "2023-09",
-      "totalUsers": 1000000,
-      "activeUsers": 350000
+      "month": {
+        "label": "Month",
+        "value": "2023-09"
+      },
+      "totalUsers": {
+        "label": "Total Users",
+        "value": 1000000
+      },
+      "activeUsers": {
+        "label": "Active Users",
+        "value": 350000
+      }
     },
     {
-      "month": "2023-08",
-      "totalUsers": 950000,
-      "activeUsers": 340000
+      "month": {
+        "label": "Month",
+        "value": "2023-08"
+      },
+      "totalUsers": {
+        "label": "Total Users",
+        "value": 950000
+      },
+      "activeUsers": {
+        "label": "Active Users",
+        "value": 340000
+      }
     },
     {
-      "month": "2023-07",
-      "totalUsers": 900000,
-      "activeUsers": 330000
+      "month": {
+        "label": "Month",
+        "value": "2023-07"
+      },
+      "totalUsers": {
+        "label": "Total Users",
+        "value": 900000
+      },
+      "activeUsers": {
+        "label": "Active Users",
+        "value": 330000
+      }
     },
     {
-      "month": "2023-06",
-      "totalUsers": 850000,
-      "activeUsers": 320000
+      "month": {
+        "label": "Month",
+        "value": "2023-06"
+      },
+      "totalUsers": {
+        "label": "Total Users",
+        "value": 850000
+      },
+      "activeUsers": {
+        "label": "Active Users",
+        "value": 320000
+      }
     },
     {
-      "month": "2023-05",
-      "totalUsers": 800000,
-      "activeUsers": 310000
+      "month": {
+        "label": "Month",
+        "value": "2023-05"
+      },
+      "totalUsers": {
+        "label": "Total Users",
+        "value": 800000
+      },
+      "activeUsers": {
+        "label": "Active Users",
+        "value": 310000
+      }
     },
     {
-      "month": "2023-04",
-      "totalUsers": 750000,
-      "activeUsers": 300000
+      "month": {
+        "label": "Month",
+        "value": "2023-04"
+      },
+      "totalUsers": {
+        "label": "Total Users",
+        "value": 750000
+      },
+      "activeUsers": {
+        "label": "Active Users",
+        "value": 300000
+      }
     },
     {
-      "month": "2023-03",
-      "totalUsers": 700000,
-      "activeUsers": 290000
+      "month": {
+        "label": "Month",
+        "value": "2023-03"
+      },
+      "totalUsers": {
+        "label": "Total Users",
+        "value": 700000
+      },
+      "activeUsers": {
+        "label": "Active Users",
+        "value": 290000
+      }
     },
     {
-      "month": "2023-02",
-      "totalUsers": 650000,
-      "activeUsers": 280000
+      "month": {
+        "label": "Month",
+        "value": "2023-02"
+      },
+      "totalUsers": {
+        "label": "Total Users",
+        "value": 650000
+      },
+      "activeUsers": {
+        "label": "Active Users",
+        "value": 280000
+      }
     },
     {
-      "month": "2023-01",
-      "totalUsers": 600000,
-      "activeUsers": 270000
+      "month": {
+        "label": "Month",
+        "value": "2023-01"
+      },
+      "totalUsers": {
+        "label": "Total Users",
+        "value": 600000
+      },
+      "activeUsers": {
+        "label": "Active Users",
+        "value": 270000
+      }
     },
     {
-      "month": "2022-12",
-      "totalUsers": 550000,
-      "activeUsers": 260000
+      "month": {
+        "label": "Month",
+        "value": "2022-12"
+      },
+      "totalUsers": {
+        "label": "Total Users",
+        "value": 550000
+      },
+      "activeUsers": {
+        "label": "Active Users",
+        "value": 260000
+      }
     },
     {
-      "month": "2022-11",
-      "totalUsers": 500000,
-      "activeUsers": 250000
+      "month": {
+        "label": "Month",
+        "value": "2022-11"
+      },
+      "totalUsers": {
+        "label": "Total Users",
+        "value": 500000
+      },
+      "activeUsers": {
+        "label": "Active Users",
+        "value": 250000
+      }
     },
     {
-      "month": "2022-10",
-      "totalUsers": 450000,
-      "activeUsers": 240000
+      "month": {
+        "label": "Month",
+        "value": "2022-10"
+      },
+      "totalUsers": {
+        "label": "Total Users",
+        "value": 450000
+      },
+      "activeUsers": {
+        "label": "Active Users",
+        "value": 240000
+      }
     }
   ],
   "revenueDistribution": [
     {
-      "source": "Subscriptions",
-      "amount": 350000
+      "source": {
+        "label": "Revenue Source",
+        "value": "Subscriptions"
+      },
+      "amount": {
+        "label": "Amount",
+        "value": 350000
+      }
     },
     {
-      "source": "Ads",
-      "amount": 150000
+      "source": {
+        "label": "Revenue Source",
+        "value": "Ads"
+      },
+      "amount": {
+        "label": "Amount",
+        "value": 150000
+      }
     }
   ],
   "topStreamedSongs": [
     {
-      "songName": "Blinding Lights",
-      "artist": "The Weeknd",
-      "streams": 500000
+      "songName": {
+        "label": "Song Name",
+        "value": "Blinding Lights"
+      },
+      "artist": {
+        "label": "Artist",
+        "value": "The Weeknd"
+      },
+      "streams": {
+        "label": "Streams",
+        "value": 500000
+      }
     },
     {
-      "songName": "Shape of You",
-      "artist": "Ed Sheeran",
-      "streams": 450000
+      "songName": {
+        "label": "Song Name",
+        "value": "Shape of You"
+      },
+      "artist": {
+        "label": "Artist",
+        "value": "Ed Sheeran"
+      },
+      "streams": {
+        "label": "Streams",
+        "value": 450000
+      }
     },
     {
-      "songName": "Levitating",
-      "artist": "Dua Lipa",
-      "streams": 400000
+      "songName": {
+        "label": "Song Name",
+        "value": "Levitating"
+      },
+      "artist": {
+        "label": "Artist",
+        "value": "Dua Lipa"
+      },
+      "streams": {
+        "label": "Streams",
+        "value": 400000
+      }
     },
     {
-      "songName": "Peaches",
-      "artist": "Justin Bieber",
-      "streams": 350000
+      "songName": {
+        "label": "Song Name",
+        "value": "Peaches"
+      },
+      "artist": {
+        "label": "Artist",
+        "value": "Justin Bieber"
+      },
+      "streams": {
+        "label": "Streams",
+        "value": 350000
+      }
     },
     {
-      "songName": "Save Your Tears",
-      "artist": "The Weeknd",
-      "streams": 300000
+      "songName": {
+        "label": "Song Name",
+        "value": "Save Your Tears"
+      },
+      "artist": {
+        "label": "Artist",
+        "value": "The Weeknd"
+      },
+      "streams": {
+        "label": "Streams",
+        "value": 300000
+      }
     }
   ],
   "recentStreams": [
     {
-      "songName": "Blinding Lights",
-      "artist": "The Weeknd",
-      "dateStreamed": "2023-09-20",
-      "streamCount": 50,
-      "userId": "user1234"
+      "songName": {
+        "label": "Song Name",
+        "value": "Blinding Lights"
+      },
+      "artist": {
+        "label": "Artist",
+        "value": "The Weeknd"
+      },
+      "dateStreamed": {
+        "label": "Date Streamed",
+        "value": "2023-09-20"
+      },
+      "streamCount": {
+        "label": "Stream Count",
+        "value": 50
+      },
+      "userId": {
+        "label": "User ID",
+        "value": "user1234"
+      }
     },
     {
-      "songName": "Shape of You",
-      "artist": "Ed Sheeran",
-      "dateStreamed": "2023-09-19",
-      "streamCount": 45,
-      "userId": "user5678"
+      "songName": {
+        "label": "Song Name",
+        "value": "Shape of You"
+      },
+      "artist": {
+        "label": "Artist",
+        "value": "Ed Sheeran"
+      },
+      "dateStreamed": {
+        "label": "Date Streamed",
+        "value": "2023-09-19"
+      },
+      "streamCount": {
+        "label": "Stream Count",
+        "value": 45
+      },
+      "userId": {
+        "label": "User ID",
+        "value": "user5678"
+      }
     },
     {
-      "songName": "Levitating",
-      "artist": "Dua Lipa",
-      "dateStreamed": "2023-09-18",
-      "streamCount": 40,
-      "userId": "user9101"
+      "songName": {
+        "label": "Song Name",
+        "value": "Levitating"
+      },
+      "artist": {
+        "label": "Artist",
+        "value": "Dua Lipa"
+      },
+      "dateStreamed": {
+        "label": "Date Streamed",
+        "value": "2023-09-18"
+      },
+      "streamCount": {
+        "label": "Stream Count",
+        "value": 40
+      },
+      "userId": {
+        "label": "User ID",
+        "value": "user9101"
+      }
     },
     {
-      "songName": "Peaches",
-      "artist": "Justin Bieber",
-      "dateStreamed": "2023-09-17",
-      "streamCount": 35,
-      "userId": "user1121"
+      "songName": {
+        "label": "Song Name",
+        "value": "Peaches"
+      },
+      "artist": {
+        "label": "Artist",
+        "value": "Justin Bieber"
+      },
+      "dateStreamed": {
+        "label": "Date Streamed",
+        "value": "2023-09-17"
+      },
+      "streamCount": {
+        "label": "Stream Count",
+        "value": 35
+      },
+      "userId": {
+        "label": "User ID",
+        "value": "user1121"
+      }
     },
     {
-      "songName": "Save Your Tears",
-      "artist": "The Weeknd",
-      "dateStreamed": "2023-09-16",
-      "streamCount": 30,
-      "userId": "user1314"
+      "songName": {
+        "label": "Song Name",
+        "value": "Save Your Tears"
+      },
+      "artist": {
+        "label": "Artist",
+        "value": "The Weeknd"
+      },
+      "dateStreamed": {
+        "label": "Date Streamed",
+        "value": "2023-09-16"
+      },
+      "streamCount": {
+        "label": "Stream Count",
+        "value": 30
+      },
+      "userId": {
+        "label": "User ID",
+        "value": "user1314"
+      }
     }
   ],
   "additionalFeatures": {
-    "filters": ["artist", "songName"],
-    "sortOptions": ["dateStreamed", "streamCount"]
+    "filters": [
+      {
+        "label": "Filter by Artist",
+        "value": "artist"
+      },
+      {
+        "label": "Filter by Song Name",
+        "value": "songName"
+      }
+    ],
+    "sortOptions": [
+      {
+        "label": "Sort by Date Streamed",
+        "value": "dateStreamed"
+      },
+      {
+        "label": "Sort by Stream Count",
+        "value": "streamCount"
+      }
+    ]
   }
 }

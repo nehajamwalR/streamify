@@ -11,14 +11,14 @@ function App() {
     <Router>
       <div className="App flex h-screen bg-white">
         <SidebarComponent />
-        <Dashboard />
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/key_metrices" element={<KeyMetrices />} />
+          <Route path="/data_visualization" element={<DataVisualization />} />
+          <Route path="/recent_streams" element={<RecentStreams />} />
+        </Routes>
       </div>
-      <Routes>
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/key_matrices" element={<KeyMetrices />} />
-        <Route path="/data_visualization" element={<DataVisualization />} />
-        <Route path="/recent_streams" element={<RecentStreams />} />
-      </Routes>
     </Router>
   );
 }

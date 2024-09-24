@@ -1,13 +1,17 @@
 import React from "react";
+import ComponentContainer from "../shared/ComponentContainer";
+import KeyMetrices from "../shared/KeyMetrices";
+import DataVisualization from "../shared/DataVisualization";
 
-const Onboarding = () => {
+const Dashboard = () => {
   return (
-    <div className="w-full p-8">
-      <h2 className="text-3xl font-bold pb-6 mb-4 border-b-2 text-center sm:text-start">
-        Streamify Dashboard
-      </h2>
-    </div>
+    <ComponentContainer title={"Streamify Dashboard"}>
+      <div>
+        <KeyMetrices />
+        <DataVisualization />
+      </div>
+    </ComponentContainer>
   );
 };
 
-export default Onboarding;
+export default Dashboard;
