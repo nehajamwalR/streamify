@@ -319,7 +319,7 @@
       },
       "streamCount": {
         "label": "Stream Count",
-        "value": 50
+        "value": 150
       },
       "userId": {
         "label": "User ID",
@@ -341,7 +341,7 @@
       },
       "streamCount": {
         "label": "Stream Count",
-        "value": 45
+        "value": 145
       },
       "userId": {
         "label": "User ID",
@@ -385,7 +385,7 @@
       },
       "streamCount": {
         "label": "Stream Count",
-        "value": 35
+        "value": 315
       },
       "userId": {
         "label": "User ID",
@@ -407,7 +407,7 @@
       },
       "streamCount": {
         "label": "Stream Count",
-        "value": 30
+        "value": 300
       },
       "userId": {
         "label": "User ID",

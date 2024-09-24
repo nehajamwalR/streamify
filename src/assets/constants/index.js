@@ -15,8 +15,15 @@ export const recentStreams = data?.recentStreams;
 export const revenueDistribution = data?.revenueDistribution;
 
 export const topStreamedSongs = data?.topStreamedSongs.sort(
-  (a, b) => new Date(a.month) - new Date(b.month)
+  (a, b) => new Date(a.streams.value) - new Date(b.streams.value)
 );
+
+export const defaultFilters = data?.additionalFeatures;
+
+export const sortingOptions = [
+  { label: "Ascending", value: "asc" },
+  { label: "Descending", value: "desc" },
+];
 
 export const sideBarOptions = [
   {
